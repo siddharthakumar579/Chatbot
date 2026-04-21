@@ -11,7 +11,7 @@ function App() {
   const [aiResponse, setAiResponse] = useState("")
   const [isLoading, setIsLoading] = useState(false)
 
-  const ai = new GoogleGenAI({apiKey: "AIzaSyDYQZcRs1tBo-dQu1bNCRzreVcduIHEU3w"});
+  const ai = new GoogleGenAI({apiKey: import.meta.env.VITE_GEMINI_API_KEY});
 
   function handleChange(e) {
     setInput(e.target.value)
