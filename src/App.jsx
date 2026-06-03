@@ -18,7 +18,6 @@ function App() {
     setInput(e.target.value)
   }
 
-
   async function handleSubmit(e) {
     e.preventDefault();
     if(!input.trim()) return;
