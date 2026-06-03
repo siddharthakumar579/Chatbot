@@ -5,7 +5,6 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { GoogleGenAI } from "@google/genai";
 
-
 function App() {
   const [input, setInput] = useState("")
   const [aiResponse, setAiResponse] = useState("")
