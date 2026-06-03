@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import { GoogleGenAI } from "@google/genai";
 
+
 function App() {
   const [input, setInput] = useState("")
   const [aiResponse, setAiResponse] = useState("")
@@ -15,6 +16,7 @@ function App() {
   function handleChange(e) {
     setInput(e.target.value)
   }
+
 
   async function handleSubmit(e) {
     e.preventDefault();
