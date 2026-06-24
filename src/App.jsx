@@ -39,7 +39,7 @@ function App() {
       },
     });
     setAiResponse(response.text)
-    // console.log("FULL RESPONSE:", response);
+    // console.log("FULL RESPONSE:",  response);
     // console.log("TEXT:", response.text);
 
     } catch(error){
