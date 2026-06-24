@@ -23,7 +23,7 @@ function App() {
     setAiResponse("")
     setIsLoading(true)
     // setInput("")
-    
+   
     try{
       // console.log("Sending request to Gemini...");
       const response = await ai.models.generateContent({
