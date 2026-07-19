@@ -22,7 +22,7 @@ function App() {
     if(!input.trim()) return;
     setAiResponse("")
     setIsLoading(true)
-    // setInput("") 
+    // setInput("")
    
     try{
       // console.log("Sending request to Gemini...");
